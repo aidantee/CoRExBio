@@ -1,3 +1,4 @@
+Implemented by Nguyễn Trần Anh Đức, a member of AIDANTE (2023).
 # How to install (conda)
 1. Create a new environment `cre_biomedical` with python version 3.7
 ```
