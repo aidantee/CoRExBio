@@ -1,4 +1,8 @@
 Implemented by Nguyễn Trần Anh Đức, a member of AIDANTE (2023).
+# Dataset
+1. Download dataset from this link: https://drive.google.com/file/d/1-eDQ1tWpxNjLt-ZOP0htbE700R0q6tzW/view?usp=sharing
+2. Unzip into project's folder
+
 # How to install (conda)
 1. Create a new environment `cre_biomedical` with python version 3.7
 ```
@@ -22,3 +26,9 @@ pip install scikit-learn
 ```
 ./run.sh
 ```
+# Result for experiment ID
+- Model's performance are saved to folder result\detail_performance\continual_{ID}
+- Performance after training i task [T_1, T_2, ..., T_i] is saved to folder result\continual_{ID}\detail_performance\{i}
+- Model is saved to folder file result\save_model\model_{ID}
+- Memorized samples is saved to file result\save_memorized_samples\memory_{ID}.pkl
+- Log during training is saved to file result\detail_training\training_performance_{ID}.txt
